@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Kontakt</title>
+</head>
+<body>
+
+<form>
+    <label for="imie">Imię:</label><br>
+    <input type="text" name="imie" id="imie"><br>
+
+    <label for="nazwisko">Nazwisko:</label><br>
+    <input type="text" name="nazwisko" id="nazwisko"><br>
+
+    <label for="email">E-mail:</label><br>
+    <input type="text" name="E-mail" id="email"><br>
+
+    <label for="plec">Płeć:</label><br>
+    <input type="radio" name="nazwa" id="plec" checked>Mężczyzna
+    <input type="radio" name="nazwa" checked>Kobieta
+    <br>
+
+    <label for="textarea">Opis:</label><br>
+    <textarea id="textarea"></textarea><br>
+
+    <label for="wiek">Wiek:</label><br>
+    <input type="number" name="wiek" id="wiek" value="18"><br>
+
+    <label for="stan_cywilny">Stan cywilny:</label><br>
+    <select id="stan_cywilny">
+        <option selected>Kawaler/Panna</option>
+        <option>Żonaty/Mężatka</option>
+        <option>Wdowiec/Wdowa</option>
+    </select><br>
+
+    <input type="submit">
+    <input type="reset">
+</form>
+
+</body>
+</html>
